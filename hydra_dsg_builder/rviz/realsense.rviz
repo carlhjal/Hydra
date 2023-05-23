@@ -28,7 +28,7 @@ Panels:
   - Class: rviz/Time
     Name: Time
     SyncMode: 0
-    SyncSource: Depth
+    SyncSource: ""
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -61,8 +61,7 @@ Visualization Manager:
           Marker Topic: /hydra_dsg_visualizer/dsg_markers
           Name: Scene Graph (Static)
           Namespaces:
-            layer_edges_3: true
-            layer_nodes_3: true
+            {}
           Queue Size: 100
           Value: true
         - Class: rviz/MarkerArray
@@ -70,9 +69,7 @@ Visualization Manager:
           Marker Topic: /hydra_dsg_visualizer/dynamic_layers_viz
           Name: Scene Graph (Dynamic)
           Namespaces:
-            "dynamic_edges_\x00": true
-            "dynamic_label_\x00": true
-            "dynamic_nodes_\x00": true
+            {}
           Queue Size: 100
           Value: true
       Enabled: true
@@ -168,48 +165,6 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        base_link:
-          Value: true
-        camera_accel_frame:
-          Value: true
-        camera_accel_optical_frame:
-          Value: true
-        camera_aligned_depth_to_color_frame:
-          Value: true
-        camera_color_frame:
-          Value: true
-        camera_color_optical_frame:
-          Value: true
-        camera_depth_frame:
-          Value: true
-        camera_depth_optical_frame:
-          Value: true
-        camera_gyro_frame:
-          Value: true
-        camera_imu_optical_frame:
-          Value: true
-        camera_infra1_frame:
-          Value: true
-        camera_infra1_optical_frame:
-          Value: true
-        camera_infra2_frame:
-          Value: true
-        camera_infra2_optical_frame:
-          Value: true
-        camera_link:
-          Value: true
-        left_cam:
-          Value: true
-        map:
-          Value: true
-        odom:
-          Value: true
-        right_cam:
-          Value: true
-        velo_link:
-          Value: true
-        world:
-          Value: true
       Marker Alpha: 1
       Marker Scale: 1
       Name: TF
@@ -217,37 +172,7 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        camera_link:
-          camera_aligned_depth_to_color_frame:
-            {}
-          camera_color_frame:
-            {}
-          camera_depth_frame:
-            camera_depth_optical_frame:
-              {}
-          camera_gyro_frame:
-            camera_imu_optical_frame:
-              {}
-          camera_infra1_frame:
-            camera_infra1_optical_frame:
-              {}
-          camera_infra2_frame:
-            camera_infra2_optical_frame:
-              {}
-        map:
-          odom:
-            {}
-        world:
-          base_link:
-            left_cam:
-              {}
-            right_cam:
-              {}
-            velo_link:
-              camera_color_optical_frame:
-                camera_accel_frame:
-                  camera_accel_optical_frame:
-                    {}
+        {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -321,4 +246,4 @@ Window Geometry:
     collapsed: false
   Width: 1920
   X: 436
-  Y: 51
+  Y: 27
