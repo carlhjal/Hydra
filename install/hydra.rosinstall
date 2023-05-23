@@ -30,10 +30,10 @@
     uri: git@github.com:MIT-SPARK/Spark-DSG.git
 - git:
     local-name: hydra
-    uri: git@github.com:MIT-SPARK/Hydra.git
+    uri: git@github.com:carlhjal/Hydra.git
 - git:
     local-name: kimera_semantics
-    uri: git@github.com:MIT-SPARK/Kimera-Semantics.git
+    uri: git@github.com:carlhjal/Kimera-Semantics.git
     version: feature/noetic_fixes
 - git:
     local-name: mesh_tools

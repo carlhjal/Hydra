@@ -16,5 +16,5 @@
     version: feature/prerelease
 - git:
     local-name: kimera_vio_ros
-    uri: git@github.com:MIT-SPARK/Kimera-VIO-ROS.git
+    uri: git@github.com:carlhjal/Kimera-VIO-ROS.git
     version: feature/prerelease
